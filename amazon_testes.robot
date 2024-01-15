@@ -1,3 +1,8 @@
+*** Settings ***
+Documentation    Essa suite testa o site da amazon.com.br
+Test Setup       Abrir o navegador
+Test Teardown    Fechar o navegador
+
 *** Test Cases ***
 Caso de teste 01 - Acesso ao menu "Eletrônicos"
     [Documentation]    Este teste verifica o menu Eletrônicos do site da Amazon.com.br
