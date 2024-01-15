@@ -1,5 +1,6 @@
 *** Settings ***
 Documentation    Essa suite testa o site da amazon.com.br
+Resource         /Users/hugogc/Desktop/CursoUdemy/webTesting/amazon_resources.robot
 Test Setup       Abrir o navegador
 Test Teardown    Fechar o navegador
 
